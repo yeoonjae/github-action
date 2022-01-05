@@ -15,6 +15,5 @@ jobs:
     # - uses: actions/checkout@v2
     - name: Run pwd
       run: pwd
-    - name: Build with Gradle
-      uses: Run ls -al
+    - name: Run ls -al
       run: ls -al
